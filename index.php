@@ -73,7 +73,7 @@ $con->close();
 <body>
     <div id="form-container">
         <h2>login</h2>
-        <form action="remotemysql.com" method="POST" onsubmit="return validateform()">
+        <form action="index.php" method="POST" onsubmit="return validateform()">
         <input type="text"placeholder="user name" id="username" name= "name"><br>
         <p id ="usererror" class="error"></p>
         <input type="password"placeholder="password"id="password" name="pass"><br>
