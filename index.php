@@ -13,7 +13,7 @@ echo " sucessfully connected";
 
 $name = $_POST['name'];
 $pass = $_POST['pass'];
-$sql =" INSERT INTO `test1`.`user` ( `name`, `password`, `dt`) VALUES ( '$name', '$pass', current_timestamp())";
+$sql =" INSERT INTO `d2IYXlAAN3`.`user` ( `name`, `password`, `dt`) VALUES ( '$name', '$pass', current_timestamp())";
 if($con->query($sql)==true){
     echo "sucessfully added";
 
