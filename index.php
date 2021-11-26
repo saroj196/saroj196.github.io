@@ -15,7 +15,7 @@ $name = $_POST['name'];
 $pass = $_POST['pass'];
 $sql =" INSERT INTO `d2IYXlAAN3`.`user` (`id`, `name`, `password`, `dt`) VALUES ('1', '$name', '$pass', CURRENT_TIMESTAMP)";
 if($con->query($sql)==true){
-    echo "sucessfully added";
+   // echo "sucessfully added";
 
 }
 else{
