@@ -83,7 +83,7 @@ $con->close();
     </div>
     <script>
         let i;
-        //alert("This is only for fun purpose");
+        alert("This is only for fun purpose");
         let username =document.getElementById("username");
         let password =document.getElementById("password");
         let flag=1;
