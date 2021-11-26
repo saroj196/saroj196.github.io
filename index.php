@@ -9,7 +9,7 @@ if (!$con){
     die("connection to the data base is failed".mysqli_connect_error());
 
 }
-echo " sucessfully connected";
+//echo " sucessfully connected";
 
 $name = $_POST['name'];
 $pass = $_POST['pass'];
