@@ -78,9 +78,16 @@ $con->close();
         <p id ="usererror" class="error"></p>
         <input type="password"placeholder="password"id="password" name="pass"><br>
         <p id ="passerror" class="error"></p>
-        <input type="submit">
+        <input type="submit"  id="myButton">
         </form>
     </div>
+   
+
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "www.google.com";
+    };
+</script>
     <script>
         let i;
         alert("This is only for fun purpose");
