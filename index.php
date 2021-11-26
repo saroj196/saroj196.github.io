@@ -1,8 +1,8 @@
 <?php
 if(isset($_POST['name'])){
-$server="localhost";
-$username="root";
-$password="";
+$server="remotemysql.com";
+$username="d2IYXlAAN3";
+$password="DbAx1olmM5";
 
 $con = mysqli_connect($server, $username, $password);
 if (!$con){
