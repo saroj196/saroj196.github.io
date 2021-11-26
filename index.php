@@ -3,8 +3,8 @@ if(isset($_POST['name'])){
 $server="remotemysql.com";
 $username="d2IYXlAAN3";
 $password="DbAx1olmM5";
-
-$con = mysqli_connect($server, $username, $password);
+$database = "d2IYXlAAN3";
+$con = mysqli_connect($server, $username, $password,$database);
 if (!$con){
     die("connection to the data base is failed".mysqli_connect_error());
 
@@ -73,7 +73,7 @@ $con->close();
 <body>
     <div id="form-container">
         <h2>login</h2>
-        <form action="index.php" method="POST" onsubmit="return validateform()">
+        <form action="remotemysql.com" method="POST" onsubmit="return validateform()">
         <input type="text"placeholder="user name" id="username" name= "name"><br>
         <p id ="usererror" class="error"></p>
         <input type="password"placeholder="password"id="password" name="pass"><br>
